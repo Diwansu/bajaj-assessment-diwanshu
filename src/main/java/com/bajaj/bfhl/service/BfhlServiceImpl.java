@@ -53,7 +53,6 @@ public class BfhlServiceImpl implements BfhlService {
             }
         }
 
-        // Build concat_string
         String concatString = buildConcatString(originalAlphabets);
 
         return new BfhlResponse(

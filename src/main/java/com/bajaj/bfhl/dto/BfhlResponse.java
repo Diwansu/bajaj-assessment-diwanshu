@@ -62,7 +62,6 @@ public class BfhlResponse {
         this.concatString = concatString;
     }
 
-    // Getters and Setters
     @JsonProperty("is_success")
     public boolean isSuccess() {
         return isSuccess;
